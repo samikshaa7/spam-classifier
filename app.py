@@ -1,6 +1,12 @@
 import streamlit as st
 import pickle
+import os
 
+# 🔥 FIRST: ensure model exists
+if not os.path.exists("model.pkl") or not os.path.exists("vectorizer.pkl"):
+    import text_model  # this will create them
+
+# THEN load model
 model = pickle.load(open("model.pkl", "rb"))
 vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
 
