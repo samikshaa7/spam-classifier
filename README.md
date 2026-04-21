@@ -36,6 +36,9 @@ This project classifies messages as Spam or Not Spam using Machine Learning and 
 
 Achieved ~95% accuracy on dataset
 
+## live demo
+https://spam-classifier-6cybtqza7sks6ubkaojiz2.streamlit.app/
+
 ## 📌 Conclusion
 
 This project demonstrates how machine learning can be used to detect spam messages effectively in real-time applications.
